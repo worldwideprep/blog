@@ -1,0 +1,686 @@
+.exampal-calendar-plan-page .intro h1 {
+    display: none;
+}
+
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+    position: relative;
+}
+.ui-datepicker .ui-datepicker-prev span:after, .ui-datepicker .ui-datepicker-next span:after {
+    content: "<";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: 0;
+    text-align: center;
+}
+.ui-datepicker .ui-datepicker-next span:after {
+    content: ">";
+}
+
+#custombanner article table td {
+    border: none !important;
+}
+
+#custombanner article table, article table {
+    margin: 0 auto;
+    width: 90%;
+    border: none !important;
+    border-bottom: none;
+}
+
+#custombanner > table {
+    min-height: 265px;
+    background: #495671;
+}
+#custom1colmn{
+    border: none;
+}
+#custombanner.fullscreen {
+    width: 100vw;
+    margin-left: calc((100% - 100vw) / 2);
+    margin-right: calc((100% - 100vw) / 2);
+}
+.calendar-section table, .intro, #calendarheader {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.intro h1{
+    display: inline-block;
+    padding: 15px 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+.calendar-section table, .calendar-section th, .calendar-section td {
+    border: 1px solid #d6d6d6;
+}
+
+.calendar-section .single_post {
+    max-width: 1200px;
+}
+
+.calendar-section .bottom_auth, .calendar-section .newsletter_top, .calendar-section .related, .calendar-section .comments, .calendar-section .posts_loop {
+    display: none;
+}
+
+.calendar-section *:focus {
+    outline: none;
+}
+
+.calendar-section #logo img {
+    margin-top: 12px;
+}
+
+#custom2colmn {
+    width: 64.3%;
+    border: none;
+    background: none;
+    vertical-align: middle;
+    padding: 34px 41px;
+}
+#custom2colmn h1{
+    font-family: Open Sans;
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: -0.31px;
+    margin-bottom: 15px;
+}
+#custom2colmn h2{
+    font-family: Open Sans;
+    font-size: 22px;
+    color: #FFFFFF;
+    letter-spacing: -0.21px;
+}
+#custom2colmn p{
+    font-family: "Open Sans"; 
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: -0.31px;
+    line-height: 27px;
+    font-weight: 300;
+    max-width: 310px;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+#custom1colmn {
+    width: 35.7%;
+    padding: 0;
+    vertical-align: bottom;
+    text-align: left;
+}
+
+#custominputbg {
+    width: 100%;
+    float: left;
+    background: #1E2a40;
+    padding: 8px 20px;
+}
+
+#custominputbg table td {
+    width: 33%;
+}
+
+#custominputbg p {
+    margin: 0;
+}
+
+.txtDate {
+    background: white;
+    border: 1px solid #d8d8d8;
+    width: 172px;
+    height: 34.4px;
+    font-size: 14px;
+    background-image: url('http://blog.exampal.com/wp-content/uploads/2017/05/cal.png');
+    background-repeat: no-repeat;
+    background-position: 95% 3px;
+    color: #939393;
+    font-family: Open Sans;
+    font-weight: normal;
+    letter-spacing: -0.24px;
+    line-height: 34px;
+    outline: none;
+}
+
+#customemailinputfield {
+    background: white;
+    border: 1px solid #d8d8d8;
+    width: 194px;
+    height: 34.4px;
+    font-size: 14px;
+    color: #939393;
+    font-family: Open Sans;
+    font-weight: normal;
+    letter-spacing: -0.24px;
+    line-height: 34px;
+    outline: none;
+}
+.input-wrap {
+    position: relative;
+}
+.input-wrap label.error {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    font-family: "Open sans";
+    font-weight: 300;
+    text-transform: none;
+    font-size: 12px;
+    background: #CE2828;
+    color: #fff;
+    line-height: 27px;
+    width: 143px;
+    transform: translateX(-50%);
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+.input-wrap label.error:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 25px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 3.5px 0 3.5px;
+    border-color: #CE2828 transparent transparent transparent;
+}
+
+#customsubmitinputfield {
+    background: #D9493F;
+    width: 240px;
+    border: 0 none;
+    height: 34.4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: -0.31px;
+    font-family: Open Sans;
+    font-weight: normal;
+    max-width: 100%;
+    outline: none;
+}
+
+#custommobile, #calendarheadermobile {
+    display: none;
+}
+
+.mc4wp-response {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.mc4wp-error p {
+    color: red !important;
+}
+table td.formobile {
+    border:none;
+    background:none;
+    vertical-align:middle;
+
+}
+table td.formobile p {
+    max-width: 500px;
+    font-family: "Open Sans"; 
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: -0.31px;
+    line-height: 27px;
+    font-weight: 300;
+    margin-left: 0;      
+}
+
+table td.formobile h1 {
+    font-family: "Open Sans"; 
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: -0.31px;
+    margin-bottom:20px;        
+}
+
+.calendar-area td {
+    font-size: 12px;
+    color: #666666;
+    padding: 8px 8px 13px;
+    font-family: "Open Sans";
+}
+.calendar-area td span{
+    display: block;
+    padding:0 5px;
+}
+.calendar-area td span.red{
+    background: #D24C2B!important;
+    display: block!important;
+    color: #fff!important;
+    margin-bottom: 15px;
+}
+.calendar-area td span:nth-child(2n){
+    display: block;
+    background: #f1f1f1;
+    margin-bottom: 10px;
+    color: #3D3D3D;
+}
+#customdesktop{
+    max-width: 100%;
+    width: auto;
+    margin-bottom:-5px;
+}
+
+#custombanner.exampal-calendar-shortcode {
+    background: #495671;
+    margin-bottom: 30px;
+}
+#custombanner .container {
+    max-width: 100%;
+}
+#custombanner.exampal-calendar-shortcode #custominputbg {
+    height: 55px;
+}
+#custombanner.exampal-calendar-shortcode .table-banner {
+    min-height: 280px;
+    width: 100%;
+}
+#custombanner.exampal-calendar-shortcode .formobile.col-1 {
+    width: 70%;
+    vertical-align: bottom;
+}
+#custombanner.exampal-calendar-shortcode .formobile.col-2 {
+    width: 30%;
+    text-align: right;
+    vertical-align: bottom;
+}
+#custombanner.exampal-calendar-shortcode .formobile.col-2 img {
+    margin-bottom: -60px;
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1140px){
+    #custombanner.fullscreen {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .calendar-section table, .intro, #calendarheader {
+        margin: 0;
+        max-width: 100vw;
+    }
+}
+@media only screen and (max-width: 1140px){
+    .calendar-area{
+        overflow-x: scroll;
+        width: 100%;
+        max-width: calc(100vw - 40px);
+    }
+
+}
+@media only screen and (max-width: 1040px) {
+    .calendar-area table {
+        width: 1000px;
+    }
+}
+@media only screen and (max-width: 700px) {
+
+    #custom2colmn, #custom1colmn {
+        width: 100%;
+        text-align: center;
+        float: left;
+    }
+
+    #customdesktop, #custom1colmn {
+        display: none;
+    }
+
+    #custommobile {
+        display: block !important;
+        background: #495671;
+        text-align: center;
+    }
+    #custommobile img{
+        width: auto;
+        margin: -18px auto 0;
+        display: inline-block;
+    }
+    #custominputbg {
+        padding: 13px 0 26px;
+    }
+
+    #custominputbg table td {
+        width: 100% !important;
+        text-align: center;
+        float: left;
+    }
+
+    #customemailinputfield, #customsubmitinputfield, input[name="exampal-plan-date"] {
+        width: 258px;
+    }
+
+    #txtDate {
+        background-position: 225px 3px;
+        width: 258px;
+    }
+
+    table td.formobile {
+        border:none;
+        background:none;
+        vertical-align:middle;
+        width: 100% ;
+        float: left;
+    }
+
+    table td.formobile p {
+        max-width: 100%;
+        font-family: "Open Sans"; 
+        font-size: 16px;
+        color: #FFFFFF;
+        letter-spacing: -0.31px;
+        line-height: 27px;
+        font-weight:normal;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    table td.formobile h1 {
+        font-family: Open Sans;
+        font-size: 40px;
+        color: #FFFFFF;
+        letter-spacing: -0.31px;
+        margin-bottom:20px;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    table td.formobile #customdesktop1 {
+        display: block;
+        width: auto;
+        margin-bottom: -15px;
+    }
+
+    #custombanner > table {
+        min-height: unset;
+    }
+    #custom2colmn p {
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+
+}
+
+#calendarheader table, #calendarheader td {
+    border: none !important;
+}
+
+table #customtblhead td {
+    font-family: Open Sans;
+    font-size: 18px;
+    color: #666666;
+    letter-spacing: -0.31px;
+    font-weight: bold;
+    height: 70px;
+    vertical-align: middle;
+}
+
+.oddspan, .evenspan {
+    font-family: Open Sans;
+    font-size: 12px;
+    color: #666666;
+    letter-spacing: -0.26px;
+    font-weight: normal;
+    width: 100%;
+    float: left;
+}
+
+.oddspan div, .evenspan div {
+    font-family: Open Sans;
+    font-size: 12px;
+    color: #3D3D3D;
+    letter-spacing: -0.26px;
+    background: #f1f1f1;
+    margin: 2px 2%;
+    padding: 2px 1%;
+    width: 94%;
+    font-weight: normal;
+}
+
+.oddspan strong, .evenspan strong {
+    font-family: Open Sans;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: -0.26px;
+    line-height: 14px;
+    background: #D24C2B;
+    margin: 2px 2%;
+    padding: 5px 1%;
+    width: 94%;
+    float: left;
+    font-weight: normal;
+}
+
+.customcalendarhead1 {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: normal;
+    color: #666666;
+    letter-spacing: -0.31px;
+}
+
+.customcalendarhead2 select {
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #D24C2B;
+    letter-spacing: -0.31px;
+    font-weight: normal;
+    background: #F1F1F1;
+    /*box-shadow: 0 2px 4px 0 rgba(0,0,0,0.11);*/
+    border: 1px solid #F1F1F1;
+    padding: 0px 5px;
+    background-image: url('http://blog.exampal.com/wp-content/uploads/2017/05/down-arrow.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.customcalendarhead2 select:focus {
+    outline: none;
+}
+
+.customcalendarhead2 select option {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 2px solid #f1f1f1;
+    font-size: 14px;
+    padding: 10px 5px;
+}
+
+.customcalendarhead5, .customcalendarhead6, .customcalendarhead7 {
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #D24C2B;
+    letter-spacing: -0.31px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.customcalendarhead5 a, .customcalendarhead6 a, .customcalendarhead7 a {
+    color: #D24C2B;
+
+}
+
+.customcalendarhead5 img, .customcalendarhead6 img, .customcalendarhead7 img {
+    margin-bottom: 2px;
+    padding: 2px;
+}
+
+.customcalendarhead7 select {
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #D24C2B;
+    letter-spacing: -0.31px;
+    font-weight: normal;
+    background: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    padding: 0px 5px;
+    background-image: url('http://blog.exampal.com/wp-content/uploads/2017/05/down-arrow.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+.customcalendarhead7 select option {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 2px solid #f1f1f1;
+    font-size: 14px;
+    padding: 10px 5px;
+}
+
+.export-loading,
+.csv-loading{
+    display: none;
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #D24C2B;
+    letter-spacing: -0.31px;
+    font-weight: normal;
+}
+.export-loading img,
+.csv-loading img{
+    -webkit-animation:spin 3s linear infinite;
+    -moz-animation:spin 3s linear infinite;
+    animation:spin 3s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+
+#calendarcontenttbl {
+    background: #fff;
+}
+
+#calendarcontenttbl p {
+    margin: 0;
+}
+
+#calendarcontenttbl tr td div {
+    font-family: Open Sans;
+    font-size: 12px;
+    color: #3D3D3D;
+    letter-spacing: -0.26px;
+    background: #f1f1f1;
+    margin: 2px 2%;
+    padding: 2px 1%;
+    width: 94%;
+    font-weight: normal;
+    float: left;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    #calendarheader {
+        display: none;
+    }
+
+    #calendarheadermobile {
+        display: block;
+        background: none;
+        width: 100%;
+        float: left;
+        margin-top: 30px;
+    }
+
+    #calendarheadermobile table {
+        width: 98%;
+        margin:0 auto;
+        margin-bottom:10px;
+        border: none !important;
+        background: none !important;
+    }
+
+    #calendarheadermobile table td {
+        border: none !important;
+    }
+
+    #calendarheadermobile img {
+        width: 20px;
+    }
+
+    #calendarheadermobile table td li {
+
+    }
+
+    .custombutton {
+        text-align: left;
+        float: right;
+        cursor: pointer;
+    }
+
+    .custommobiledropdown {
+        background: white;
+        padding: 0 0 0 0;
+        margin-top: 10px;
+    }
+
+    .custommobiledropdown li a {
+        color: #d24c2b;
+        font-family: Open Sans;
+        font-size: 14px;
+    }
+
+    .custommobiledropdown li {
+        line-height: 3 !important;
+        border-bottom: 2px solid #f1f1f1;
+        padding: 5px 0 5px 10px;
+        color: #d24c2b;
+        font-family: Open Sans;
+        font-size: 14px;
+    }
+
+    .custommobiledropdown select {
+        border: none;
+        background: none;
+        box-shadow: none;
+        font-size: 14px;
+    }
+
+    #parent_dropdowndatefield, #parent_dropdowndatefield2, #parent_dropdowndatefield3 {
+        cursor: pointer;
+    }
+
+    .parent_dropdowndatefield_bg {
+        background: #E2E2E2;
+    }
+
+    #customdropdowncalendar {
+
+    }
+
+    #customdropdowncalendar li a, #customdropdownplan li a {
+        color: #d24c2b;
+        font-family: Open Sans;
+        font-size: 14px;
+        padding-left: 50px;
+    }
+
+    #dropdowndatefield {
+        padding-left: 50px;
+    }
+    #custombanner.exampal-calendar-shortcode .table-banner tr{
+        display: flex;
+        flex-direction: column;
+    }
+    #custombanner.exampal-calendar-shortcode .table-banner tr td.formobile{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+    #custombanner.plan-form-shortcode {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
