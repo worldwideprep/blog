@@ -1,0 +1,16 @@
+#wpfooter {
+  display: none;
+}
+input.fca-lpc-email-input {
+	width: 100%;
+}
+/* COLUMN WIDTHS */
+table.fca-lpc-optins-table #fca-lpc-optins-number {
+	width: 25px;
+}
+table.fca-lpc-optins-table #fca-lpc-optins-time {
+	width: 120px;
+}
+table.fca-lpc-optins-table #fca-lpc-optins-status {
+	width: 60px;
+}
