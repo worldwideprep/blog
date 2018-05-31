@@ -56,7 +56,7 @@ else echo '<div class="c_not_logged">';
 if(!isset($_COOKIE['c_toggle']))$_COOKIE['c_toggle']='';
 	if($_COOKIE['c_toggle']=='closed') { $cl_class=''; $cl_class_list=''; $d_closed='closed'; }
 	else { $cl_class='c_close'; $cl_class_list='c_open'; $d_closed='';}?>
-	<a class="c_toggle <?php echo $cl_class;s?>" title="close/open comments" data-closed="<?php echo $d_closed;?>"></a>
+	<a class="c_toggle <?php echo $cl_class;?>" title="close/open comments" data-closed="<?php echo $d_closed;?>"></a>
 </div><!-- c_number end -->
 	
 <?php
