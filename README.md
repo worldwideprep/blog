@@ -2,6 +2,7 @@
 examPAL blog
 
 Deploy commands:
+
 sudo rm -r /var/www/html/wp-content/plugins/exampal-study-plan.back
 sudo mv /var/www/html/wp-content/plugins/exampal-study-plan /var/www/html/wp-content/plugins/exampal-study-plan.back
 sudo cp -r /var/www/blogs/gmat/plugins/exampal-study-plan/ /var/www/html/wp-content/plugins/exampal-study-plan
