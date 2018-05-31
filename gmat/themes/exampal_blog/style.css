@@ -759,6 +759,7 @@ time.posted_single {
     font-size: 16px;
     line-height: 1.625;
     color: #636363;
+    word-spacing: 2px;
 }.posts_full.single_post h1, .posts_full.single_post h2, .posts_full.single_post h3, .posts_full.single_post h4, .posts_full.single_post h5 {
     margin-bottom: 20px;
 }.wp-caption .wp-caption-text {
