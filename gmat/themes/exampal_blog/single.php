@@ -27,19 +27,16 @@
 //query_posts('posts_per_page=5&posty_type=post&paged='.get_query_var('paged'));
 if ( have_posts() ): ?>
 
-<?php
-global $post;
-$a_id=$post->post_author;
-
+<?php 
 if(has_post_thumbnail()!='') {
 	$bg_img=wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()),'large');
 	$text = get_excerpt_by_id(get_the_ID(),'40');
-
+	$a_id=$post->post_author;
 	echo '</section><section class="home_featured_post" style="background:url('.$bg_img[0].') center center no-repeat #fff;background-size:cover;">
  		<div class="container"><div class="inside_featured">
  		<h1 class="post_title">'.get_the_title(get_the_ID()).'</h1>
  		<time class="posted_single no_mobile" datetime="'; the_time( 'Y-m-d' ); echo '" pubdate>'.__('Posted On ','exampal_blog'); the_time( 'Y-m-d' ); echo '</time>';
- 		echo '<span class="single_author">'.get_avatar($a_id, $size='80').' By '.get_the_author_meta('first_name',$a_id).' '.get_the_author_meta('last_name',$a_id).'</span>';
+ 		echo '<span class="single_author">'.get_avatar(get_the_author_meta('user_email',$a_id),$size='80').' By '.get_the_author_meta('first_name',$a_id).' '.get_the_author_meta('last_name',$a_id).'</span>';
  		echo '</div></div><div class="home_featured_overlay"></div>
  		<div class="posts_full single_post">
          </section>
@@ -76,7 +73,7 @@ if((!empty($f2)&&$f2!='')
 		</article>
 		<?php 
 		echo '<div class="share_bot">'.do_shortcode('[addtoany]').'</div>';
-		echo '<div class="single_author bottom_auth"><div class="img_ava">'.get_avatar($a_id,$size='80').'</div><div class="bio_right">
+		echo '<div class="single_author bottom_auth"><div class="img_ava">'.get_avatar(get_the_author_meta('user_email',$a_id),$size='80').'</div><div class="bio_right">
  		'.get_the_author_meta('first_name').' '.get_the_author_meta('last_name',$a_id).' '.get_the_author_meta('posit',$a_id).'
  		<div class="author_bio">'.get_the_author_meta('description',$a_id).'</div></div><div class="cl"></div></div>';
  		

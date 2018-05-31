@@ -1107,38 +1107,3 @@ function remove_intercom_created_at($js){
     return $js;
 }
 add_filter('intercom_wp_js', 'remove_intercom_created_at');
-
-// Fix function attachment_url_to_postid
-function exampal_attachment_url_to_postid($post_id, $url) {
-
-	global $wpdb;
-
-	$dir = wp_get_upload_dir();
-	$path = $url;
-
-	$site_url = parse_url( $dir['url'] );
-	$image_path = parse_url( $path );
-
-	//force the protocols to match if needed
-	if ( isset( $image_path['scheme'] ) && ( $image_path['scheme'] !== $site_url['scheme'] ) ) {
-		$path = str_replace( $image_path['scheme'], $site_url['scheme'], $path );
-	}
-
-	if ( 0 === strpos( $path, $dir['baseurl'] . '/' ) ) {
-		$path = substr( $path, strlen( $dir['baseurl'] . '/' ) );
-	}
-
-	// We may have different upload dir url, so we should check it:
-	if ( 0 === strpos( $path, 'http://blog.exampal.com/wp-content/uploads/' ) ) {
-		$path = substr( $path, strlen( 'http://blog.exampal.com/wp-content/uploads/' ) );
-	}
-
-	$sql = $wpdb->prepare(
-		"SELECT post_id FROM $wpdb->postmeta WHERE meta_key = '_wp_attached_file' AND meta_value = %s",
-		$path
-	);
-	$post_id = $wpdb->get_var( $sql );
-
-	return $post_id;
-}
-add_filter('attachment_url_to_postid', 'exampal_attachment_url_to_postid', 20, 2);
